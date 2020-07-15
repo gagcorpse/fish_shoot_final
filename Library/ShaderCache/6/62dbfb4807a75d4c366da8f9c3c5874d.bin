@@ -1,0 +1,56 @@
+tonFgColor"		"DimBaseText"	// color of arrows
+		}
+
+
+		// text edit windows
+		"WindowFgColor"				"BaseText"		// off-white
+		"WindowBgColor"				"WindowBG"
+		"WindowDisabledFgColor"		"DimBaseText"
+		"WindowDisabledBgColor"		"66 80 60 255"		// background of chat conversation
+
+		"SelectionFgColor"			"255 255 255 255"		// fg color of selected text
+		"SelectionBgColor"			"SelectionBG"
+		"ListSelectionFgColor"		"255 255 255 255"			// 
+
+		"ListBgColor"				"62 70 55 255"	// background of server browser control, etc
+		"BuddyListBgColor"			"62 70 55 255"	// background of buddy list pane
+		
+		// App-specific stuff
+		"ChatBgColor"				"WindowBgColor"
+
+		// status selection
+		"StatusSelectFgColor"		"BrightBaseText"
+		"StatusSelectFgColor2"		"BrightControlText"		// this is the color of the friends status
+
+		// checkboxes
+		"CheckButtonBorder1"   		"BorderDark" 		// the left checkbutton border
+		"CheckButtonBorder2"   		"BorderBright"		// the right checkbutton border
+		"CheckButtonCheck"			"0 0 0 255"				// color of the check itself
+		"CheckBgColor"				"158 168 150 255"
+
+		// buttons (default fg/bg colors are used if these are not set)
+//		"ButtonArmedFgColor"
+//		"ButtonArmedBgColor"
+//		"ButtonDepressedFgColor"	"BrightControlText"
+//		"ButtonDepressedBgColor"
+
+		// buddy buttons
+		BuddyButton
+		{
+			"FgColor1"		"ControlText"
+			"FgColor2"		"117 134 102 255"
+
+			"ArmedFgColor1"	"BrightBaseText"
+			"ArmedFgColor2"	"BrightBaseText"
+			"ArmedBgColor"	"SelectionBG"
+		}
+
+		Chat
+		{
+			"TextColor"				"BrightControlText"
+			"SelfTextColor"			"BaseText"
+			"SeperatorTextColor"	"DimBaseText"
+		}
+
+		"SectionTextColor"		"BrightControlText"		// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
+		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list

@@ -1,0 +1,47 @@
+y app
+//		Borders			- description of all the borders
+//
+// hit ctrl-alt-shift-R in the app to reload this file
+//
+///////////////////////////////////////////////////////////
+Scheme
+{
+	//////////////////////// COLORS ///////////////////////////
+	// color details
+	// this is a list of all the colors used by the scheme
+	Colors
+	{
+		// base colors
+		"BaseText"		"48 192 192 255"		// used in text windows, lists
+		"BrightBaseText" "155 255 255 255"	// brightest text
+		"DimBaseText"	"150 159 142 255"		// dim base text
+		
+		"LabelDimText"	"160 170 149 255"		// slight modification on above, used for info text
+												// could be just removed and use DimBaseText?
+		
+		"ControlText"	"48 192 192 255"		// used in all text controls
+		"BrightControlText"	"64 224 224 255"	// use for selected controls
+		"DisabledText1"	"32 128 128 255"		// disabled text
+		"DisabledText2"	"30 30 30 255"		// overlay color for disabled text (to give that inset look)
+
+		// background colors
+		"ControlBG"		"76 88 68 255"		// background color of controls
+		"ControlDarkBG" "90 106 80 255"		// darker background color; used for background of scrollbars
+		"WindowBG"		"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"	"149 136 49 255"		// background color of any selected text or menu item
+
+		// title colors
+		"TitleText"		"255 255 255 255"
+		"TitleDimText"	"120 132 114 255"
+		"TitleBG"		"76 88 68 0"
+		"TitleDimBG"	"76 88 68 0"
+
+		// border colors
+		"BorderBright"	"136 145 128 255"		// the lit side of a control
+		"BorderDark"	"45 49 40 255"		// the dark/unlit side of a control
+		"BorderSelection"	"0 0 0 255"		// the additional border color for displaying the default/selected button
+	}
+
+	///////////////////// BASE SETTINGS ////////////////////////
+	//
+	// default settings for all 
